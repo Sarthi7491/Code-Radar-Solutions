@@ -1,6 +1,12 @@
 #include <stdio.h>
-int main(){
-    int x;
-    printf("%f",x);
-    retun 0;
-} 
+
+int main() {
+    float x;
+
+    printf("Enter a floating-point number: ");
+    scanf("%f", &x);
+
+    printf("You entered: %f\n", x);
+
+    return 0;
+}
