@@ -5,7 +5,7 @@ int main(){
     printf("Name: %s",str);
 
     int age;
-    scanf("%d",age);
+    scanf("%d",&age);
     printf("Age: %d",age);
     return 0; 
 }
