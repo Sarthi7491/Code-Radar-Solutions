@@ -8,7 +8,7 @@ int main() {
     
     average = (float)(num1 + num2 + num3) / 3;
 
-    printf("Average:%.2f\n", average);
+    printf("Average: %.2f\n", average);
     
     return 0;
 }
