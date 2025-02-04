@@ -4,8 +4,8 @@ int main(){
     scanf("%f",&a);
     float b;
     scanf("%f",&b);
-    float a*b;
-    scanf("%f",&a*b);
-    printf("Product: %f",a*b);
+    int Product = a*b;
+    scanf("%d",&Product);
+    printf("Product: %f",Product);
     return 0; 
 } 
