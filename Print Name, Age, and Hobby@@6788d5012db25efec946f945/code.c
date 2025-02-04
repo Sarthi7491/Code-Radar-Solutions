@@ -7,5 +7,9 @@ int main(){
     int age;
     scanf("%d",&age);
     printf("\nAge: %d",age);
+
+    char str[100];
+    scanf("%99s",str);
+    printf("\nHobby: %s",str);
     return 0; 
 }
