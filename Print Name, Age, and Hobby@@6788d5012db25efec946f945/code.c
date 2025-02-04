@@ -1,15 +1,15 @@
 #include <stdio.h>
 int main(){
-    char str[100];
-    scanf("%99s",str);
-    printf("Name: %s",str);
+    char name[100];
+    scanf("%99s",name);
+    printf("Name: %s",name);
 
     int age;
     scanf("%d",&age);
     printf("\nAge: %d",age);
 
-    char str[100];
-    scanf("%99s",str);
-    printf("\nHobby: %s",str);
+    char hobby[100];
+    scanf("%99s",hobby);
+    printf("\nHobby: %s",hobby);
     return 0; 
-}
+} 
