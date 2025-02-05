@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int x,y;
+    int x, int y;
     scanf("%x%y",&x&y);
     if (x>y);
     printf("True");
