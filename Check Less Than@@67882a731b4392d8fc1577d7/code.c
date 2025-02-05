@@ -2,7 +2,8 @@
 int main(){
     int x,y;
     scanf("%d%d",&x&y);
-    if(x<y);
+    if(x<y){
     pritnf("True");
+    } 
     return 0; 
 } 
