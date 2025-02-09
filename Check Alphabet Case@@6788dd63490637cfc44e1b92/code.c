@@ -10,6 +10,11 @@ int main() {
     else if (ch >= 'a' && ch <= 'z') {
         printf("Lowercase", ch);
     }
+    else {
+        printf("\nNot an alphabet", ch);
+    }
 
     return 0;
 }
+
+  
