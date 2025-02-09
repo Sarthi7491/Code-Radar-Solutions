@@ -13,9 +13,9 @@ int main() {
     scanf("%f %f %f", &a, &b, &c);
 
     if (a + b > c && a + c > b && b + c > a) {
-        printf("The sides %.2f, %.2f, and %.2f form a valid triangle.\n", a, b, c);
+        printf("Valid\n", a, b, c);
     } else {
-        printf("The sides %.2f, %.2f, and %.2f do not form a valid triangle.\n", a, b, c);
+        printf("Invalid\n", a, b, c);
     }
 
     return 0;
