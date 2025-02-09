@@ -8,10 +8,10 @@ int main() {
         printf("Uppercase\n", ch);
     } 
     else if (ch >= 'a' && ch <= 'z') {
-        printf("Lowercase", ch);
+        printf("Lowercase\n", ch);
     }
     else {
-        printf("\nNot an alphabet", ch);
+        printf("Not an alphabet", ch);
     }
 
     return 0;
