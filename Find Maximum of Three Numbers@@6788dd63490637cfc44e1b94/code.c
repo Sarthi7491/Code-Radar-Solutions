@@ -8,5 +8,8 @@ int main(){
     else if(num2>num3){
         printf("%d",num3);
     }
+    else{
+        printf("%d",num2); 
+    }
     return 0; 
 }
