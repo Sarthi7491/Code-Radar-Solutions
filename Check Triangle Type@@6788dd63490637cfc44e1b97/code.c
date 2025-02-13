@@ -7,6 +7,5 @@ int main(){
     if(x==y && y==z){
         printf("Equilateral");
     }
-    else if()
     return 0; 
 } 
