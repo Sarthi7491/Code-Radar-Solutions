@@ -8,11 +8,11 @@ int main(){
         printf("Equilateral");
     }
     else if(x==y || y==z || z==x){
-        printf("Isoceles");
+        printf("Isosceles");
     }
     else{
         printf("Scalene");
     }
-    
+
     return 0; 
 } 
