@@ -7,5 +7,12 @@ int main(){
     if(x==y && y==z){
         printf("Equilateral");
     }
+    else if(x==y || y==z || z==x){
+        printf("Isoceles");
+    }
+    else{
+        printf("Scalene");
+    }
+    
     return 0; 
 } 
