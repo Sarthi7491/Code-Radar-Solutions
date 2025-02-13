@@ -6,10 +6,10 @@ int main(){
         printf("%d",num1);
     }
     else if(num2>num3){
-        printf("%d",num3);
+        printf("%d",num2);
     }
     else{
-        printf("%d",num2); 
+        printf("%d",num3); 
     }
     return 0; 
 }
