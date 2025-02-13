@@ -1,7 +1,7 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    int sp, cp;
+    int cp, sp;
     scanf("%d %d",&cp, &sp);
 
     if(cp < sp){
@@ -15,4 +15,4 @@ int main(){
     }
 
     return 0;
-} 
+}  
