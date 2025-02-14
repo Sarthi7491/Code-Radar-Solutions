@@ -25,7 +25,7 @@ int main() {
                 printf("Error\n");
             break;
         default:
-            printf("Eror\n");
+            printf("Error\n");
             break;
     }
     
