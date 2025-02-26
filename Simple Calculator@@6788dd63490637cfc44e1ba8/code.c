@@ -5,7 +5,7 @@ int main() {
     int num1, num2;
     float result;
 
-    scanf("%d", &num1, &num2);    
+    scanf("%d %d", &num1, &num2);    
     scanf(" %c", &operator);
 
     // Perform the operation based on the operator input
