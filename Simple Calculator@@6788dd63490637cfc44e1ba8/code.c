@@ -6,13 +6,13 @@ int main() {
     float result;
 
     scanf("%d %d", &num1, &num2);    
-    scanf(" %c", &operator);
+    scanf("%c", &operator);
 
     // Perform the operation based on the operator input
     switch (operator) {
         case '+':
             result = num1 + num2;
-            printf("%d + %d = %.2f\n", num1, num2, result);
+            printf("%.2f", num1, num2, result);
             break;
         case '-':
             result = num1 - num2;
