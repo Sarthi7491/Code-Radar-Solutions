@@ -12,7 +12,7 @@ int main() {
     switch (operator) {
         case '+':
             result = num1 + num2;
-            printf("%.2f", num1, num2, result);
+            printf("%.2f\n", num1, num2, result);
             break;
         case '-':
             result = num1 - num2;
