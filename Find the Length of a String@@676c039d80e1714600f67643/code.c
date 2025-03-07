@@ -1,9 +1,16 @@
-// Your code here...
-#include<stdio.h>
-#include<string.h>
+#include <stdio.h>
 
-int main(){
-    char str[];
-    printf("%lu",strlen(str));
-    return 0; 
+int findLength(char* str) {
+    int length = 0;
+    while (str[length] != '\0') {
+        length++;
+    }
+    return length;
+}
+
+int main() {
+    char str[100];
+    scanf("%s", str);
+    printf("%d\n", findLength(str));
+    return 0;
 }
