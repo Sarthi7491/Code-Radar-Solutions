@@ -3,7 +3,7 @@
 #include<string.h>
 
 int main(){
-    char s[];
-    printf("%lu",strlen(s));
+    char str[];
+    printf("%lu",strlen(str));
     return 0; 
 }
