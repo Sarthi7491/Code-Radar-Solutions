@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()[
+int main(){
     int N;
     scanf("%d",&N);
 
@@ -7,4 +7,4 @@ int main()[
         printf("%d x %d = %d",N, i, N*i);
     }
     return 0;
-]  
+} 
