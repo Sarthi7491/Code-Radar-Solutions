@@ -19,7 +19,7 @@ int main() {
 
     for (int i = 1; i <= N; i++) { // Outer loop controls rows
         for (int j = 1; j <= i; j++) { // Inner loop controls stars in each row
-            printf("*");
+            printf("* ");
         }
         printf("\n"); // Move to the next row
     }
