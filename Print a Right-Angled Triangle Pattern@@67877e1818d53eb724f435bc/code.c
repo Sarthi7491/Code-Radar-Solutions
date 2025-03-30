@@ -15,7 +15,6 @@
 #include<stdio.h>
 int main() {
     int N;
-    printf("Enter the number of rows for the triangle: ");
     scanf("%d", &N); // Read the number of rows
 
     for (int i = 1; i <= N; i++) { // Outer loop controls rows
