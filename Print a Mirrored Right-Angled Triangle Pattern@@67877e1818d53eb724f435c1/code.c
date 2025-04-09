@@ -22,7 +22,7 @@ int main() {
     int i, j, space, rows;
 
     // Ask user for number of rows
-    printf("Enter the number of rows: ");
+    
     scanf("%d", &rows);
 
     // Loop for each row
