@@ -14,22 +14,30 @@
 //     }
 //     return 0; 
 // }
+
+
 #include <stdio.h>
 
 int main() {
-    int i, j, rows;
+    int i, j, space, rows;
 
     // Ask user for number of rows
     printf("Enter the number of rows: ");
     scanf("%d", &rows);
 
-    // Outer loop for rows
+    // Loop for each row
     for (i = 1; i <= rows; i++) {
-        // Inner loop for stars
+        // Print spaces first
+        for (space = 1; space <= (rows - i); space++) {
+            printf("  ");  // Two spaces for better alignment
+        }
+
+        // Then print stars
         for (j = 1; j <= i; j++) {
             printf("* ");
         }
-        // Move to the next line after each row
+
+        // Move to the next line
         printf("\n");
     }
 
