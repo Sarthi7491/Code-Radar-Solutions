@@ -29,7 +29,7 @@ int main() {
     for (i = 1; i <= rows; i++) {
         // Print spaces first
         for (space = 1; space <= (rows - i); space++) {
-            printf("  ");  // Two spaces for better alignment
+            printf(" ");  // Two spaces for better alignment
         }
 
         // Then print stars
