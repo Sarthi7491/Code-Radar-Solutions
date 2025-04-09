@@ -34,7 +34,7 @@ int main() {
 
         // Then print stars
         for (j = 1; j <= i; j++) {
-            printf("* ");
+            printf("*");
         }
 
         // Move to the next line
